@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Protocolos TCP-IP ....by JF004</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="font.css">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="social-body">
+        <ul>
+            <li class="facebook"><a href="https://www.facebook.com/jose.fierrofelix" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li class="twitter"><a href="https://wa.me/51910580834?text=Hola%20que%20tal%20me%20puede%20brindar%20más%20información" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+            <li class="twitter"><a href="https://twitter.com/Jose13238877?s=08" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li class="instagram"><a href="https://www.instagram.com/josefierr004/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li class="pinterest"><a href="https://ar.pinterest.com/JoseFierr004/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+        </ul>
+    </div>
+
+      <header>
+        <nav>
+            <section class="contenedor nav">
+                <div class="logo">
+                    <br>
+                    <h2>🅹🅾🆂É🅵🅸🅴🆁🆁004</h2>
+                </div>
+                <div class="enlaces-header">
+                  
+                </div>
+                <div class="hamburguer">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </section>
+        </nav>
+        <div class="contenedor">
+            <section class="contenido-header">
+                <section class="textos-header">
+                    <h1>Protocolos TCP-IP</h1>
+                    <p>Modelo que describe y de alguna forma clasifica los protocolos de red al igual que hace el modelo OSI.</p>
+                    <a href="#jl">Aprender más</a>
+                </section>
+                <img src="img/26090-intuitive-control-panel.svg" alt="">
+            </section>
+        </div>
+
+    </section>
+    <section class="questions contenedor">
+        <section class="textos-questions">
+            <h3 id="jl">INTRO</h3>
+            <p>La definición de TCP/IP es la identificación del grupo de protocolos de red que hacen posible la transferencia de datos en redes, entre equipos informáticos e internet. Las siglas TCP/IP hacen referencia a este grupo de protocolos:</p>
+            <p> -TCP es el Protocolo de Control de Transmisión que permite establecer una conexión y el intercambio de datos entre dos anfitriones. Este protocolo proporciona un transporte fiable de datos.</p>
+            <p>-IP o protocolo de internet, utiliza direcciones series de cuatro octetos con formato de punto decimal (como por ejemplo 75.4.160.25). Este protocolo lleva los datos a otras máquinas de la red.</p>
+            <p>El modelo TCP/IP permite un intercambio de datos fiable dentro de una red, definiendo los pasos a seguir desde que se envían los datos (en paquetes) hasta que son recibidos. Para lograrlo utiliza un sistema de capas con jerarquías (se construye una capa a continuación de la anterior) que se comunican únicamente con su capa superior (a la que envía resultados) y su capa inferior (a la que solicita servicios).</p>
+            
+        </section>
+        <img src="img/protocolo-TCP-IP.png" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
+    </section>
+
+    </header>
+    <section class="about-us">
+        <div class="contenedor1">
+            <h2 class="titulo">Se divide en 4 capas</h2>
+            <div class="contenedor-articulo">
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="far fa-check-circle"></i>
+                    <h3>Acceso al medio</h3>
+                    <p>Esta capa define el acceso físico de los equipos conectados a la red y los protocolos que en él intervienen. También se denomina capa de enlace de red porque incluye todos los hosts accesibles en una red de área local. Esta también define la topología de la red, estrella, malla, anillo, etc, y como se mueven los paquetes entre las interfaces de la capa de Internet.</p>
+                    <p>A pesar de que está definido sobre una red de área local, TCP/IP es extensible a toda la red global, por estar diseñado de forma independiente del hardware que compone la red. Por ello redes de cables de pares trenzados, coaxiales, fibra óptica o incluso redes inalámbricas entran dentro de este modelo y utilizando estos protocolos.</p>
+                    
+                </div>
+             
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="far fa-check-circle"></i>
+                    <h3>Internet</h3>
+                    <p>Una de las capas más importantes en el modelo por ocuparse de la estructura del paquete de datos básico que circula por la red y de cómo enviarlos a través de la red. La capa de Internet define entonces cómo será el enrutamiento de los datagramas a partir de la administración de las direcciones IP.</p>
+                    <p>Por esto la otra función básica de la capa es la identificación del host en la red mediante una dirección y el direccionamiento de estos datagramas dando saltos entre enrutadores hasta llegar al destino. Es aquí en donde trabaja el protocolo IP, así como otros protocolos muy conocidos como IGMP, ICMP o ARP.</p>
+                    
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="far fa-check-circle"></i>
+                    <h3>Transporte</h3>
+                    <p>En la capa de transporte es donde tienen protagonismo los puertos lógicos de un router, ya que es la capa que establece los canales básicos que utilizarán las aplicaciones para intercambiar información entre dos puntos. Por tanto, la capa define como será la conexión de un host a otro, asociando un puerto a un tipo de aplicación a su vez con un tipo de datos.</p>
+                    <p>En esta capa hay protocolos que se encargan de la segmentación de paquetes, del control de errores y el control de flujo de estos. El protocolo TCP opera en esta capa, siendo un de tipo orientado a conexión, mientras que el otro quizás más importante es el UDP que no es orientado a conexión. Veremos luego sus diferencias.</p>
+                    
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="far fa-check-circle"></i>
+                    <h3>Aplicación</h3>
+                    <p>Esta es la capa más cercana al usuario, y la que define los protocolos que usarán las aplicaciones que proporcionan servicios al usuario. Estas aplicaciones se comunican entre ellas con la estructura definida en las 3 capas inferiores, proporcionando su propio encapsulamiento según tipo de aplicación que sea y el tipo de dato con el que trabaja.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="questions contenedor">
+        <section class="textos-questions">
+            <h1>PROTOCOLO IP</h1>
+            <p>El Protocolo IP o Internet Protocol es el encargado de proporcionar una dirección IP a todos los equipos conectados a una red, ya sean hosts cliente, servidores o incluso el propio router. Opera en la capa de red OSI o de Internet en TCP/IP y es un protocolo no orientado a conexión, por lo que en definitiva se encarga de llevar de datos de un punto a otro.</p>
+            <P>No orientado a conexión quiere decir que el intercambio de datos se puede hacer sin un acuerdo previo entre cliente y servidor o emisor y receptor. Esto significa que el paquete de datos buscará el camino más rápido por la red hasta llegar al destino, dando saltos de enrutador en enrutador. Este protocolo no asegura que los paquetes lleguen a su destino, ni tampoco que lo hagan en orden. Aunque en esto intervendrán otros protocolos como TCP que asegurarán este hecho.</P>
+           
+        </section>
+        <img src="img/dereccion-ip-1024x1024.jpg" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
+    </section>
+
+    <section class="results">
+        <div class="contenedor1 conten-results">
+            <section class="numbers">
+                <div class="number" data-aos="zoom-in-left">
+                    <h4> <i class="far fa-check-circle"></i></h4>
+                    <p>•	La comunicación empieza y finaliza de forma cordial y sin roturas.</p>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <h4> <i class="far fa-check-circle"></i></h4>
+                    <p>•	Puede monitorizar el flujo de datos para no saturar la red, lo que vendría siendo un QoS (Quality of Service)</p>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <h4> <i class="far fa-check-circle"></i></h4>
+                    <p>•	Permite circular datos simultáneamente, aunque vengan de distintas funciones, lo que se llama multiplexación</p>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <h4> <i class="far fa-check-circle"></i></h4>
+                    <p>•	Ordena los segmentos de datos cuando llevan a través del protocolo IP</p>
+                </div>
+            </section>
+            <section class="results-text">
+                <h4>PROTOCOLOS TCP</h4>
+                <p>Ahora vamos al siguiente protocolo que define el modelo TCP o Protocolo de Control de Transmisión en español. Se trata de unos de los protocolos fundamentales de Internet habiendo sido creado en 1974 por los fundadores de ARPANET como ya se comentó el principio.</p>
+                <P>Este protocolo es el encargado de establecer y permitir la conexión entre dos hosts y asegurar el intercambio de datos entre ellos. TCP asegura además una comunicación segura entre los dos puntos, ya que cuenta con acuse de recibo independiente de las capas inferiores. TCP básicamente coge un datagrama IP y le añade su propio encapsulado y cabecera para asegurar su correcto transporte.</P>
+                <p>Obviamente interviene en la capa de transporte tanto de OSI como TCP/IP y es un protocolo orientado a la conexión a diferencia de IP. Esto significa que los dos equipos que intervienen deben aceptar la conexión antes de efectuar el intercambio de datos. Esto es muy importante para asegurar que los datos llegan y toda la comunicación de estas características:</p>
+                <p><-----</p>
+            </section>
+        </div>
+    </section>
+
+    <section class="contenedor1 services">
+        <img src="img/operating_system.svg" alt="">
+        <div class="box-skills">
+            <h1>Cabecera o Segmento TCP</h1>
+            <br>
+            <h4><i class="far fa-check-circle"></i>Puerto de origen y destino</h4>
+           
+            <br>
+            <h4><i class="far fa-check-circle"></i> Número de secuencia</h4>
+            
+            <br>
+            <h4><i class="far fa-check-circle"></i>Número de acuse de recibo </h4>
+            
+            <br>
+            <h4><i class="far fa-check-circle"></i> Reservado</h4>
+            
+            <br>
+            <h4><i class="far fa-check-circle"></i> Flasg</h4>
+            
+            <br>
+            <h4><i class="far fa-check-circle"></i> Ventana</h4>
+            
+            <br>
+            <h4><i class="far fa-check-circle"></i>	Checksum</h4>
+           
+            <br>
+            <h4><i class="far fa-check-circle"></i> Puntero de urgencia</h4>
+          
+            <br>
+            <h4><i class="far fa-check-circle"></i>	Opciones y relleno</h4>
+            
+            
+        </div>
+    </section>
+
+          <br>
+          <br>
+
+        <h1 class="title">Video relacionado</h1>
+        <br>
+     <div class="video">
+        <iframe class="esdacode-video" src="https://www.youtube.com/embed/JQDCL17sARA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+    <br>
+    <br>
+
+
+    <div class="social-bar">
+
+    <footer>
+        
+        <div class="partFooter">
+            <img src="./img/WhatsApp Image 2021-05-22 at 1.24.30 PM (1) (2).png" alt="100px" height="100px">
+        </div>
+        <div>
+
+            <br>
+            <br>
+            <h3>JoséFierr004</h3>
+            
+            
+            <h5>(Desarrollador Web)</h5>
+        </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/aaf9e3a3de.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
